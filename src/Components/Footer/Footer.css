@@ -13,12 +13,39 @@
 .f-wrapper{
     background: var(--black);
 }
+
+.f-list{
+    justify-content: space-between;
+    color: white;
+}
+.footer-list-title{
+    font-size:x-large;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer-link:hover{
+    color: orange;
+
+}
+
 @media (max-width:1024px){
     .f-container{
         justify-content: center;
+        flex-direction: column;
     }
     .f-container>div{
         align-items: center !important;
+        text-align: center;
+    }
+    
+
+}
+
+@media (max-width:768px){
+    .f-list{
+        justify-content: center;
+        flex-direction: column;
         text-align: center;
     }
 }

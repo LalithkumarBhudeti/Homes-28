@@ -8,22 +8,42 @@ import Value from "./Components/Values/Value";
 import Contact from "./Components/Contact/Contact";
 import GetStarted from "./Components/GetStarted/GetStarted";
 import Footer from "./Components/Footer/Footer";
+import LoginPage from "./Components/Login/Login";
 
 
 function App() {
   return (
     <div className="App">
       <div>
-        <div className="white-gradient"/>
-        <Header/>
-        <Hero/>
+        <div className="white-gradient" />
+        <Header />
+        <Hero />
       </div>
-      <Companies/>
-      <Residencies/>
+      <Companies />
+
+      {/* <Residencies/>
       <Value />
       <Contact/>
-      <GetStarted/>
-      <Footer/>
+      <GetStarted/> */}
+
+      <section id="residencies">
+        <Residencies />
+      </section>
+
+      <section id="values">
+        <Value />
+      </section>
+
+      <section id="contact">
+        <Contact />
+      </section>
+
+      <section id="get-started">
+        <GetStarted />
+      </section>
+
+      <Footer />
+      {/* <LoginPage/> */}
     </div>
   );
 }

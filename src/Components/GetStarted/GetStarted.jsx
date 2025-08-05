@@ -5,15 +5,15 @@ const GetStarted = () => {
     <section className="g-wrapper">
       <div className="paddings innerWidth g-container">
         <div className="flexColCenter inner-container">
-          <span className='primaryText'>Get started with Homyz</span>
-          <span className='secondaryText'>
-            Subscribe and find super attractive price quotes from us.
+          <span className='primaryText'>Sell or rent faster at the right price!</span>
+          <span className='secondaryText G-font-big'>
+            List your property now
             <br />
-            Find your residence soon
+            It's Free
           </span>
 
           <button className="button">
-            <a href="lalithkumarbhudeti@gmail.com">Get Started</a>
+            <a href="lalithkumarbhudeti@gmail.com">Post Property</a>
           </button>
         </div>
       </div>

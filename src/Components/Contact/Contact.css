@@ -11,9 +11,12 @@
 }
 .c-left{
     gap: 0.5rem;
+    
 }
 
 .ContactModes{
+    justify-content: center;
+    
     margin-top: 2rem;
     gap: 1rem;
 }
@@ -73,13 +76,21 @@
     .mode{
         width: 100%;
     }
+    .ContactModes{
+        margin-left: 30%;
+    }
 }
 @media (max-width:1024px){
     .c-container{
         flex-direction: column;
+        /* justify-content: space-evenly; */
+
     }
     .c-right{
         
+        justify-content: center;
+    }
+    .ContactModes{
         justify-content: center;
     }
     /* 

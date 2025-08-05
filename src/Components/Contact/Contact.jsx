@@ -22,7 +22,7 @@ const Contact = () => {
               We beleive a good blace to live can make your life better
             </span>
 
-            <div className="flexColStart ContactModes">
+            <div className="flexColCenter ContactModes">
                 {/* first row */}
                 <div className="flexStart row">
                     <div className="flexColCenter mode">

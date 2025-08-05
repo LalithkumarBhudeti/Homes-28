@@ -8,7 +8,7 @@ import Value from "./Components/Values/Value";
 import Contact from "./Components/Contact/Contact";
 import GetStarted from "./Components/GetStarted/GetStarted";
 import Footer from "./Components/Footer/Footer";
-import LoginPage from "./Components/Login/Login";
+// import LoginPage from "./Components/Login/Login";
 
 
 function App() {

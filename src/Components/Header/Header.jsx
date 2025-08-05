@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 // import './index.css'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { BiMenuAltRight } from "react-icons/bi";
 import OutsideClickHandler from "react-outside-click-handler";
 

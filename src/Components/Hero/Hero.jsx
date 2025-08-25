@@ -35,11 +35,11 @@ const Hero = () => {
             </span>
           </div>
 
-          <div className="flexCenter search-bar">
-            <HiLocationMarker color="var(--blue)" size={25} />
-            <input type="text" name="" id="" placeholder="Search here"  autoComplete="off"/>
-            <button className="button">search</button>
-          </div>
+          {/* <div className="flexCenter search-bar "> */}
+            {/* <HiLocationMarker color="var(--blue)" size={25} /> */}
+            {/* <input type = "text" name="" id= "" placeholder="Search here"  autoComplete="off"/> */}
+            <button className = " flexCenter search-bar ">Explore Properties </button>
+          {/* </div> */}
 
           <div className="flexCenter stats">
             <div className="flexColCenter stat">

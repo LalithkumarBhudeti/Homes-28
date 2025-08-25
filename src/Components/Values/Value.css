@@ -56,9 +56,16 @@
     .v-container{
         flex-direction: column;
     }
+    .image-container{
+        height: auto;
+    }
     @media (max-width:768px){
         .accordionButton .primaryText{
             font-size: 0.8rem;
+            
+        }
+        .image-container{
+            height: auto;
         }
     }
 }
